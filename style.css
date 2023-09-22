@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.topBar {
+    width: 100%;
+    padding: 10px 30px;
+}
+
+.topBar p {
+    font-weight: bold;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+    padding: 0 30px;
+}
+
+#topTextSub {
+    font-size: 19px;
+}
+
+#topTextMain {
+    font-size: 33px;
+
+}
+
+#topTextDesc {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 30px 0 0 0;
+    color: #696969;
+}
+
+.right {
+    width: 50%;
+    padding: 0 30px 0 0;
+}
+
+.right img {
+    border-radius: 20px;
+    object-fit: contain;
+    width: 100%;
+}
+
+/* =========================== */
+#nayami {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nayami-wrapper {
+    /* width: 90%; */
+    width: 100%;
+    padding: 50px 30px 0 30px;
+}
+
+.nayami-topText {
+    font-weight: 600;
+    margin: 0 0 50px 0;
+}
+
+.nayami-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .nayami-item {
+    background-color: #3979F4;
+    color: white;
+    border-radius: 10px;
+    height: 100px;
+    padding: 20px 20px;
+    width: 30%;
+    box-shadow: 2px 4px 31px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.nayami-item {
+    background-color: white;
+    color: black;
+    border-top: solid 3px #3979F4;
+    border-radius: 0 0 10px 10px;
+    height: 100px;
+    padding: 20px 20px;
+    width: 30%;
+    box-shadow: 2px 4px 31px 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nayami-text {
+    font-weight: 500;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* =========================== */
+
+#tuyomi {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catchText {
+    width: 80%;
+    margin: 130px 0;
+    align-self: center;
+    position: relative;
+}
+
+.catchText h3 {
+    position: absolute;
+    color: white;
+    text-align: center;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: max-content;
+}
+
+.catchTextBox {
+    background-color: #3979F4;
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) skew(-25deg);
+}
+
+.tuyomiHead {
+    font-weight: 600;
+}
+
+.tuyomiItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    margin: 40px 60px;
+    box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+    border: solid 1px #EFF0F6;
+}
+
+.tuyomiItemTitle {
+    margin: 0 0 20px 0;
+    font-weight: 600;
+    color: #696679;
+}
+
+.tuyomiItemCont {
+    font-size: 14px;
+    /* color: #6F6C90; */
+    color: #696969;
+    text-align: left;
+}
+
+/* =========================== */
+
+#shikumi img {
+    width: 100vw;
+    margin: 40px 0 50px 0;
+}
+
+/* =========================== */
+
+#actionBox {
+    background-color: #E8E8E8;
+    width: 100%;
+    padding: 30px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.actionContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+}
+
+.actionDesc {
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.actionButton {
+    padding: 20px 0;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100vw;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.actionButton:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.actionButtonColor {
+    background-color: #3979F4;
+    color: white;
+}
+
+.actionButtonWhite {
+    background-color: white;
+    border: solid 1px rgba(0, 0, 0, 0.1);
+}
+
