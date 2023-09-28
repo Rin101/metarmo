@@ -306,13 +306,19 @@ body {
     .tuyomiItem {
         margin: 40px 20px;
     }
-}
 
-@media only screen and (max-width: 800px) {
     .catchText {
         margin: 80px 0;
     }
+}
 
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .catchText {
+        margin: 130px 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .catchText h3 {
         font-size: 13px;
     }
